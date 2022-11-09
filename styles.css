@@ -1,0 +1,110 @@
+@media screen and (max-width: 600px) {
+    body {
+        background-color: lightgreen;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: large;
+    color: rgb(206, 50, 69);
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    background: rgba(206, 50, 68, 0.963);
+    /* padding-left: 10px; */
+    padding-right: 10px;
+    position: fixed;
+    width: 100%;
+    padding-right: 40px;
+}
+
+.nav {
+    padding: 5px;
+    margin: 2px;
+    text-decoration: none;
+    font-size: larger;
+    /* color: rgb(36, 32, 66); */
+    /* color: white; */
+    color: rgb(36, 32, 66);
+}
+
+.nav:hover {
+    background-color: rgb(36, 32, 66);
+    color: rgb(206, 50, 69);
+    border: 2px solid rgb(169, 50, 64);
+    padding-bottom: 0;
+}
+
+#welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: 2px solid black;
+    background-color: rgb(36, 32, 66);
+    color: white;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 100vh;
+    background-color: rgba(36, 32, 66, 0.923);
+    color: white;
+}
+
+#prj {
+    display: flex;
+}
+
+.project-tile {
+    border: 2px solid black;
+    margin: 5px;
+    padding: 10px;
+    /* width: 50%; */
+    text-align: center;
+    background-color: rgb(36, 32, 66);
+}
+
+img {
+    width: 400px;
+    height: 400px;
+    display: block;
+    padding: 10px;
+}
+
+.button {
+    text-decoration: none;
+    padding: 5px;
+    margin: 15px;
+    border: 2px solid black;
+    color: rgb(255, 181, 181);
+    background-color: rgb(206, 50, 69);
+    border-radius: 10%;
+}
+
+.button:hover {
+    color: rgb(206, 50, 69);
+    background-color: rgb(255, 181, 181);
+}
+
+
+#con {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: rgb(36, 32, 66);
+    padding-top: 20px;
+    padding-bottom: 0px;
+    height: 25vh;
+}
